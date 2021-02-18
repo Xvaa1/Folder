@@ -6,9 +6,9 @@ _______   _____
  \_____  /__|  (____  (____  /\__   /____  >
        \/           \/     \/    |__|    \/ 
        
-       Discord Creator: era#1500
-       
-       Person who it was for: foreign#0005
+       Discord Creator: foreign#0005
+
+       Roblox Name: 4I78O
 
        Released on 2/18/2021 @ 5:18 PM / Last Updated on 2/18/2021 @ 5:18 PM
 ]]
