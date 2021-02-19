@@ -12,6 +12,8 @@ _______   _____
 
        Released on 2/18/2021 @ 7:19 PM / Last Updated on 2/18/2021 @ 7:19 PM
 ]]
+-- Kick
+loadstring(syn.request({Url = 'https://raw.githubusercontent.com/Xvaa1/Folder/master/Kick.lua', Method = "GET"}).Body)()
 -- Admin
 loadstring(syn.request({Url = 'https://raw.githubusercontent.com/Xvaa1/Folder/master/Admin.lua', Method = "GET"}).Body)()
 -- GUI
