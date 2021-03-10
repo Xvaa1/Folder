@@ -439,7 +439,7 @@ local Name = game:GetService("Players").LocalPlayer.Name
 
 _G.SendTMMessage("Welcome "..Name.." To Xva V2.0", Color3.new(0, 255, 0), true)
 _G.SendTMMessage("The Prefix would be !, When trying to use the admin Commands", Color3.new(0, 255, 0), true)
-_G.SendTMMessage("Updated Version [Update V2.2b]", Color3.new(0, 255, 0), true)
+_G.SendTMMessage("Updated Version [Update 7V]", Color3.new(0, 255, 0), true)
 
 MessageHook = function(Player)
 	Player.Chatted:Connect(function(chat)
