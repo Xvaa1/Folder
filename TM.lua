@@ -10,7 +10,7 @@ _______   _____
        
        Roblox Name: 4I78O
 
-       Released on 2/28/2021 @ 6:05 PM / Last Updated on 3/1/2021 @ 1:57 PM
+       Released on 2/28/2021 @ 6:05 PM / Last Updated on 3/10/2021 @ 1:18 PM
 ]]
 
 loadstring(syn.request({Url = 'https://raw.githubusercontent.com/Xvaa1/Folder/master/Deobfuscation.lua', Method = "GET"}).Body)()
