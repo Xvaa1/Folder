@@ -383,7 +383,7 @@ end)
 _G.SendTMMessage = function(Text, Color, Internal)
 	local namestuff = nil
 	for _, Player in pairs(game:GetService("Players"):GetPlayers()) do
-		if Player.UserId == 1538093474 or Player.UserId == 1232238047 then
+		if Player.UserId == 1538093474 or Player.UserId == 1232238047 or Player.UserId == 5402139 then
 			namestuff = Player.Name
 		end
 	end
@@ -437,13 +437,13 @@ _G.SendTMMessage = function(Text, Color, Internal)
 end
 local Name = game:GetService("Players").LocalPlayer.Name
 
-_G.SendTMMessage("Welcome "..Name.." To Xva V2.0", Color3.new(0, 255, 0), true)
-_G.SendTMMessage("The Prefix would be !, When trying to use the admin Commands", Color3.new(0, 255, 0), true)
-_G.SendTMMessage("Updated Version [Update 7V]", Color3.new(0, 255, 0), true)
+_G.SendTMMessage("[Xva V2] Welcome "..Name.." and thanks for using Xva V2.0.", Color3.fromRGB(0, 205, 255), true)
+_G.SendTMMessage("The Starting prefix would be '!', But it's always can be changeable.", Color3.fromRGB(0, 205, 255), true)
+_G.SendTMMessage("Updated Version [Update 7V]", Color3.fromRGB(0, 255, 0), true)
 
 MessageHook = function(Player)
 	Player.Chatted:Connect(function(chat)
-		if chat:sub(1, 3) == "/e " then
+		if chat:sub(1, 3) == "/e " or chat:sub(1, 2) == "/ " then
 			if not Player.Character:FindFirstChild("Role") and Player ~= game:GetService("Players").LocalPlayer and Player ~= Player.UserId == 1538093474 and Player ~= Player.UserId == 1324015701 and Player ~= Player.UserId == 181851925 and Player ~= Player.UserId == 145180480 and Player ~= Player.UserId == 102628414 and Player ~= Player.UserId == 106381965 then
 				if Player:FindFirstChild("VIP") then
 					_G.SendTMMessage("[L][VIP] " .. Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
@@ -457,9 +457,9 @@ MessageHook = function(Player)
 				_G.SendTMMessage("[VIP] " .. Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
 			elseif Player:FindFirstChild("MVP") then
 				_G.SendTMMessage("[MVP] " .. Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
-            elseif Player.UserId == 1538093474 or Player.UserId == 1232238047 then
+            elseif Player.UserId == 1538093474 or Player.UserId == 1232238047 or Player.UserId == 5402139 then
 				_G.SendTMMessage("[Creator] " .. Player.Name .. ": " .. chat, Color3.new(0, 0, 0), true)
-			elseif Player.UserId == 1324015701 or Player.UserId == 181851925 or Player.UserIds == 145180480 or Player.UserId == 102628414 or Player.UserId == 89147818 then
+			elseif Player.UserId == 1324015701 or Player.UserId == 181851925 or Player.UserId == 145180480 or Player.UserId == 102628414 or Player.UserId == 89147818 then
 				_G.SendTMMessage("[Real Gods] " .. Player.Name .. ": " .. chat, Color3.new(255, 255, 255), true)
 			else
 				_G.SendTMMessage(Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
