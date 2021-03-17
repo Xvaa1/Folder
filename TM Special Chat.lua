@@ -1,9 +1,3 @@
---[[
-	beautifying took 0.024 seconds
-	code generated using luamin.js, Herrtt#3868
---]]
-
-
 local ScriptLocation = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("FEController")
 
 ScriptLocation.Disabled = true
