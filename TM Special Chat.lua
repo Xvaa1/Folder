@@ -1,3 +1,9 @@
+--[[
+	beautifying took 0.024 seconds
+	code generated using luamin.js, Herrtt#3868
+--]]
+
+
 local ScriptLocation = game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("FEController")
 
 ScriptLocation.Disabled = true
@@ -437,7 +443,7 @@ _G.SendTMMessage = function(Text, Color, Internal)
 end
 local Name = game:GetService("Players").LocalPlayer.Name
 
-_G.SendTMMessage("[Xva V2] Welcome "..Name.." and thanks for using Xva V2.0.", Color3.fromRGB(0, 205, 255), true)
+_G.SendTMMessage("[Xva V2] Welcome " .. Name .. " and thanks for using Xva V2.0.", Color3.fromRGB(0, 205, 255), true)
 _G.SendTMMessage("The Starting prefix would be '!', But it's always can be changeable.", Color3.fromRGB(0, 205, 255), true)
 _G.SendTMMessage("Updated Version [Update 7V]", Color3.fromRGB(0, 255, 0), true)
 
@@ -457,7 +463,7 @@ MessageHook = function(Player)
 				_G.SendTMMessage("[VIP] " .. Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
 			elseif Player:FindFirstChild("MVP") then
 				_G.SendTMMessage("[MVP] " .. Player.Name .. ": " .. chat, Color3.new(0, 205, 255), true)
-            elseif Player.UserId == 1538093474 or Player.UserId == 1232238047 or Player.UserId == 5402139 then
+			elseif Player.UserId == 1538093474 or Player.UserId == 1232238047 or Player.UserId == 5402139 then
 				_G.SendTMMessage("[Creator] " .. Player.Name .. ": " .. chat, Color3.new(0, 0, 0), true)
 			elseif Player.UserId == 1324015701 or Player.UserId == 181851925 or Player.UserId == 145180480 or Player.UserId == 102628414 or Player.UserId == 89147818 then
 				_G.SendTMMessage("[Real Gods] " .. Player.Name .. ": " .. chat, Color3.new(255, 255, 255), true)
